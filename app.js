@@ -10,7 +10,7 @@ app.get("/",(req,res)=>{
 })
 
 
-app.get("/contact",(req,res)=>{
+app.post("/contact",(req,res)=>{
     res.send("Welcome to my contact")
 })
 
