@@ -2,14 +2,14 @@ const mongoose = require("mongoose")
 const schema = mongoose.Schema(
     {
         "name": String,
-        "rollNo": String,
+        "rollNo": {type:String,required:true},
         "admNo":String,
         "parentName":String,
         "collegeName":String,
         "dob":String,
         "emailId":String,
-        "password":String,
-        "confirmPassword":String
+        "password":String, 
+        "confirmPassword":String,
 
     }
 )
