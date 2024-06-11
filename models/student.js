@@ -10,6 +10,7 @@ const schema = mongoose.Schema(
         "emailId":String,
         "password":String, 
         "confirmPassword":String,
+        "img":String
 
     }
 )
